@@ -12,6 +12,8 @@ generateButton.addEventListener('click', function(){
 
   array = createArray(firstNumber, lastNumber);
   console.log(array);
+
+  combinate(array, data, 0, (array.length - 1), 0, groupNumber);
 });
 
 function createArray(firstNumber, lastNumber){
@@ -25,9 +27,10 @@ function createArray(firstNumber, lastNumber){
 }
 
 function combinate(array, data, start, end, index, r){
-  if (index === r){
+
+  if (index == r){
     for (let j = 0; j < r; j++)
-      console.log(data);
+      console.log(data[j] + ' ');
     return;
   }
 
