@@ -7,6 +7,9 @@ let generateButton = document.querySelector('button[name="generateButton"]'),
     groupNumber;
 
 generateButton.addEventListener('click', function(){
+  if (resultsSection.innerHTML != '') 
+    resultsSection.innerHTML = '';
+
   firstNumber = document.querySelector('input[name="firstNumber"]').value;
   lastNumber = document.querySelector('input[name="lastNumber"]').value;
   groupNumber = document.querySelector('input[name="groupNumber"]').value;
