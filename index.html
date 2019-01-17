@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport">
-    <link rel="icon" src="img/icon.png">
+    <link rel="icon" href="imgs/icon.png">
     <link rel="stylesheet" href="css/style.css">
     <title>Combinations</title>
   </head>
@@ -12,9 +12,16 @@
       <h1>Combinations</h1>
     </header>
     <main>
-
+      <section id="numbers">
+        <p>Digite o início e o fim da sua sequência de números:</p>
+        <p>De <input type="number" name="firstNumber" min="0" max="100"> a <input type="number" name="lastNumber" min="0" max="100"></p>
+        <button type="button" name="send">Enviar</button>
+      </section>
+      <section id="results">
+        <h2>Resultados:</h2>
+      </section>
     </main>
-    <script src="js/main.js" charset="utf-8"></script>
     <script src="js/buttons.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
