@@ -1,1 +1,1 @@
-SITE-QUE-GERA-TODAS-AS-COMBINA-ES-POSS-VEIS-DE-N-MEROS-DE-X-A-Y-
+Site que gera todas as combinações possíveis de números de X a Y.
